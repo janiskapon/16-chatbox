@@ -2,6 +2,7 @@ body {
   max-width: 320px;
   margin: auto;
   background: #ddd;
+  font-family: 'Quicksand', sans-serif;
 }
 
 img {
@@ -18,7 +19,6 @@ header {
   padding: 0 20px;
   position: sticky;
   top: 0;
-
 }
 
 .recipient {
@@ -28,7 +28,6 @@ header {
 .recipient .name {
   font-size: 26px;
 }
-
 
 
 .profile-picture {
@@ -54,14 +53,12 @@ header {
 }
 
 .message-content {
-  font-family: monospace;
   background: #B7DBE4;
   margin: 0 0 5px 0;
   padding: 10px 15px;
 }
 
 .message-author {
-  font-family: sans-serif;
   font-size: 10px;
   margin: 0;
   padding: 0 15px;
@@ -77,6 +74,10 @@ header {
 
 .message-box-justine .message-content {
   background: #DAE5B6;
+}
+
+p h1 h2 header footer {
+  font-family: 'Quicksand', sans-serif
 }
 
 footer {

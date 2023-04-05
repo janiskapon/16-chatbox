@@ -80,8 +80,8 @@ header {
 }
 
 footer {
-  background: #7B6E8F;
   display: flex;
+  background: #7B6E8F;
   justify-content: space-between;
   padding: 20px;
   position: sticky;

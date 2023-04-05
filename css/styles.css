@@ -80,6 +80,22 @@ p h1 h2 header footer {
   font-family: 'Quicksand', sans-serif
 }
 
+.wait {
+  max-width: 25%;
+}
+
+.maps {
+  max-width: 50%;
+  margin: 0 20px 20px 20px;
+}
+
+.mariajanis {
+  display: bloc;
+  align-items: right;
+  max-width: 50%;
+  margin: 0 10px 20px 130px;
+} 
+
 footer {
   display: flex;
   background: #7B6E8F;

@@ -14,11 +14,22 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
-  background: #ddd;
+  background: #7B6E8F;
   padding: 0 20px;
   position: sticky;
   top: 0;
+
 }
+
+.recipient {
+  color: black;
+}
+
+.recipient .name {
+  font-size: 26px;
+}
+
+
 
 .profile-picture {
   width: 50px; 
@@ -34,6 +45,7 @@ header {
   margin: auto;
   flex-direction: column;
   align-items: left;
+  background: #A693C3;
 }
 
 .message-box {
@@ -43,7 +55,7 @@ header {
 
 .message-content {
   font-family: monospace;
-  background: #55f;
+  background: #B7DBE4;
   margin: 0 0 5px 0;
   padding: 10px 15px;
 }
@@ -55,7 +67,7 @@ header {
   padding: 0 15px;
 }
 
-.message-box-luke {
+.message-box-janis {
   align-self: flex-end;
 }
 
@@ -64,15 +76,11 @@ header {
 }
 
 .message-box-justine .message-content {
-  background: #f33;
-}
-
-.message-box-yoda .message-content {
-  background: #3f3;
+  background: #DAE5B6;
 }
 
 footer {
-  background: pink;
+  background: #7B6E8F;
   display: flex;
   justify-content: space-between;
   padding: 20px;
